@@ -41,6 +41,10 @@ if(isset($_POST['login'])) {
             <input type="password" name="password" value="admin123" required>
             
             <button type="submit" name="login" class="btn btn-blue" style="width:100%">MASUK</button>
+            
+            <div style="text-align:center; margin-top: 10px;">
+                <a href="forgot_password.php" style="font-size:14px; text-decoration:none; color:#007bff;">Lupa Password?</a>
+            </div>
         </form>
     </div>
 </body>
