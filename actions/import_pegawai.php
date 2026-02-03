@@ -96,7 +96,7 @@ if (isset($_POST['import'])) {
     <div class="container">
         <div class="header">
             <h2>Import Data Pegawai</h2>
-            <a href="../dashboard.php" class="btn btn-red">Kembali ke Dashboard</a>
+            <a href="../views/dashboard.php" class="btn btn-red">Kembali ke Dashboard</a>
         </div>
 
         <?php if($pesan_sukses) echo "<div class='alert alert-green'>$pesan_sukses</div>"; ?>
